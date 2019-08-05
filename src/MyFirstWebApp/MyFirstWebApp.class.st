@@ -4,7 +4,7 @@ Class {
 	#instVars : [
 		'image'
 	],
-	#category : #MyFirstWebApp
+	#category : #'MyFirstWebApp-Main'
 }
 
 { #category : #public }
