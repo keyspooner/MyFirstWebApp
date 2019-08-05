@@ -11,6 +11,6 @@ BaselineOfMyFirstWebApp >> baseline: spec [
 				
         "Packages"
         spec
-            package: 'MyFirstWebApp';
-            package: 'MyFirstWebApp-Tests' with: [ spec requires: #('MyFirstWebApp') ] ].
+            package: 'MyFirstWebApp-Main';
+            package: 'MyFirstWebApp-Tests' with: [ spec requires: #('MyFirstWebApp-Main') ] ].
 ]
